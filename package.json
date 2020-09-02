@@ -1,13 +1,18 @@
 {
-  "name": "fedex",
-  "version": "0.0.1",
-  "description": "FedEx API for Node.JS",
+  "name": "fedex-pure",
+  "version": "1.0.0",
+  "description": "FedEx API for NodeJS with no native code.",
   "author": {
     "name": "Sundarrajan K | hephesthesis"
   },
+  "contributors": [
+    {
+      "name": "David Sandor <david.sandor@gmail.com> (https://buildsucceeded.com)"
+    }
+  ],
   "maintainers": [
     {
-      "name": "Sundarrajan K"
+      "name": "David Sandor"
     }
   ],
   "repository": {
@@ -23,9 +28,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "extend": "^1.2.1",
-    "soap": "^0.24.0",
-    "xml2json": "~0.6.1"
+    "extend": "^3.0.2",
+    "soap": "^0.33.0"
   },
   "gitHead": ""
 }
